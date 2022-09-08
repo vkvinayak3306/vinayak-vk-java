@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        ol{
+            counter-reset: item;
+
+        }
+        li{
+            display: block;
+
+        }
+        li:before{
+            content:counters(item, ".") " ";
+            counter-increment: item;
+            
+        }
+        table{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 2px solid black;
+            
+        }
+    
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Of Colleges</title>
+</head>
+<link href="web.css">
+<body>
+<div>
+    <h1 style="text-align:center;">Welcome to Hubballi-Dharwad Colleges</h1>
+    <hr>
+    <ol>
+        <li>Engineering Colleges</li>
+        <ol>
+            <li>BVB</li>
+            <li>KLEIT</li>
+            <li>JAIN</li>
+            <li>SAM</li>
+            <li>JAIN CLG</li>
+        </ol>
+        <li>Degree Colleges</li>
+        <ol>
+            <li>HUBBALI DEGREE COLLEGES</li>
+            <ol>
+                <li>DEGREE 1</li>
+                <li>DEGREE 2 </li>
+                <li>DEGREE 3</li>
+                <li>DEGREE 4</li>
+                <li>DEGREE 5</li>
+            </ol>
+        </ol>
+            <li>DHARWAD DEGREE COLLEGES</li>
+            <ul>
+                <li>DEGREE 1</li>
+                <li>DEGREE 2 </li>
+                <li>DEGREE 3</li>
+                <li>DEGREE 4</li>
+                <li>DEGREE 5</li>
+            </ul>
+        </ol>
+        <li>Medical Colleges</li>
+        <ul>
+            <li>DEGREE 1</li>
+            <li>DEGREE 2 </li>
+            <li>DEGREE 3</li>
+            <li>DEGREE 4</li>
+            <li>DEGREE 5</li> 
+        </ul>
+
+    </ol>
+    <hr>
+    <img src="images/blue_eyes.jpg" width="300px" height="300px" alt="images"/>
+    <img src="images/beautiful_girl.jpg" alt="images" width="300px" height="300px"/>
+    <img src="images/funny.jpg" alt="images" width="300px" height="300px"/>
+    <img src="images/funny_skull.jpg" alt="images" width="300px" height="300px"/>
+</div>
+<center>
+<table>
+    <thead>
+        <tr>
+            <th rowspan="2">computer science engineering</th>
+            <th>civil engineering</th>
+        </tr>
+        <tr>
+            <td>vinayak kademani</td>
+            
+        </tr>
+    </thead>
+</table>
+</center>
+<form action="" name="f1"></form>
+
+<label>user name:</label>
+<input type="text" name="uname" size="6"> <br> <br>
+<label>password:</label>
+<input type="password " name="pass" size="6"> <br> <br>
+<input type="submit" value="submit" name="b1" >
+<input type="button" value="cancel" name="b2">
+
+</form>
+</body>
+</html>
